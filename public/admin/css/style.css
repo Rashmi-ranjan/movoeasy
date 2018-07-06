@@ -1,0 +1,141 @@
+#loddingImage{margin:auto;position:fixed;width:100%;top:50%;z-index:200;left:50%;display:none;}
+.loddingImgSm{margin:auto;position:fixed;width:100%;top:50%;z-index:200;left:50%;display:none;}
+.error-message{color:red;}
+/*.nonPrintable {display:none;}*/
+
+/*===========================================================================*/
+/*===========================================================================*/
+/*===========================================================================*/
+/*===========================================================================*/
+/*===========================================================================*/
+/*==============================22-06-2016===================================*/
+/*===========================================================================*/
+/*===========================================================================*/
+/*===========================================================================*/
+/*===========================================================================*/
+a{
+	color:#222;
+}
+.login_content{
+	border:1px solid #ddd;
+	border-radius:10px;
+	box-shadow:0 0 25px rgba(0,0,0,0.1);
+	padding:15px 30px;
+	background:#fff;
+}
+#wrapper{
+	max-width:400px;
+}
+.login_content div .reset_pass{
+	margin-right:0;
+}
+
+
+
+.paddingtop{
+	padding-top:10px;
+}
+.paddingtop15{
+	padding-top:15px;
+}
+.paddingtop20{
+	padding-top:20px;
+}
+.paddingtop25{
+	padding-top:25px;
+}
+.paddingtop30{
+	padding-top:30px;
+}
+.paddingtop35{
+	padding-top:35px;
+}
+.accordiontable .panel-heading{
+	padding:0;
+}
+.accordiontable .panel-heading .btn-block{
+	padding:10px 15px;
+	text-decoration:none;
+}
+.accordiontable .panel-collapse .panel-body table{
+	margin:0;
+}
+.accordiontable .panel-heading .panel-title{
+	position:relative;
+}
+.accordiontable .panel-heading .panel-title .siteurl{
+	position:absolute;
+	z-index:999;
+	top:0;
+	right:0;
+	padding:10px 15px;
+	text-decoration:none;
+}
+.categorylist .subcategorylist label{
+	font-weight:normal;
+}
+.categorylist{
+	margin:0 0 15px;
+	padding:0;
+	border:1px solid #ddd;
+}
+.subcategorylist{
+	margin:0;
+	padding:5px 15px 15px 40px;
+}
+.categorylist > li {
+	border-bottom: 1px solid #ddd;
+    list-style: outside none none;
+	margin:0;
+    padding: 0px;
+}
+.categorylist > li .listtitle{
+    padding: 0px 15px 0px 40px;
+    border-bottom: 1px solid #ddd;
+	background:#eee;
+	color:#000;
+}
+.categorylist > li .checkbox{
+	padding:7px 0;
+	cursor:pointer;
+}
+.categorylist .subcategorylist li {
+    display: inline-block;
+    margin-right: 10px;
+	padding-left:40px;
+	color:#666;
+	width:240px;
+}
+/*.categorylist .checkbox:before{content:"\e013"}*/
+.categorylist .checkbox{
+	position:relative;
+}
+.categorylist .checkbox span:after{
+	position:absolute;
+	z-index:9;
+	top:7px;
+	left:-25px;
+	width:20px;
+	height:20px;
+	border:1px solid #ccc;
+	background:#fff;
+	content:"";
+}
+.categorylist .checkbox input[type="checkbox"]{
+	opacity:0;
+}
+.categorylist .checkbox input[type="checkbox"]:checked ~ span:before{
+	position:absolute;
+	z-index:99;
+	top:6px;
+	left:-23px;
+	content:"\e013";
+	color:#337ab7;
+	font-family: 'Glyphicons Halflings';
+	font-weight:normal;
+}
+
+/*===========================================================================*/
+.pad10top{
+	padding-top: 10px;
+}
